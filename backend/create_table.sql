@@ -1,0 +1,7 @@
+CREATE TABLE geojson_data (
+  id UUID PRIMARY KEY,
+  name TEXT NOT NULL,
+  geojson JSON NOT NULL,
+  geometry GEOMETRY NOT NULL,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
