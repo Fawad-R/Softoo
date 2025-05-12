@@ -27,8 +27,8 @@
 ---
 
 ## 📁 Backend
-cd backend
-npm install
+- cd backend
+- npm install
 
 ## .env
 -DB_USER=your_postgres_username
@@ -44,7 +44,7 @@ npm install
 - node app.js
 
 ## 🎨 Frontend Setup
-- cd backend
+- cd frontend
 - npm install
 - npm start
 
